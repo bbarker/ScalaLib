@@ -80,7 +80,7 @@ configurations {
 dependencies {
 
     // Specific to ScalaLib
-    includeInJar 'org.scala-lang:scala-library:2.11.7'
+    includeInJar 'org.scala-lang:scala-library:2.11.11'
     configurations.compile.extendsFrom(configurations.includeInJar)
 
     // Check to see if this module is not the root Gradle project - if so we are in a multi-project workspace
